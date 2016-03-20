@@ -118,10 +118,15 @@ body {
   background-size: cover;
 }
 
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
   .bottombar {
     color: blue;
-    display: inline-block;
     font-size: 28px;
-    text-align:  center;
+    text-align: center;
     position: relative;  //POSITION BOTTOMBAR RELATIVE TO MENUBAR
   }
+
