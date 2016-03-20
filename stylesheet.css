@@ -1,0 +1,129 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+  header {  css: reset;
+            background-image: url('CalligraphicMosque.png');
+            background-size: cover;
+            color: black;
+            height: 160px;
+            position: relative;
+  }
+
+  .menubar {padding: 10px;
+    background-image: url(Moorish.png);
+    text-align:  center;
+    margin-top: 70px;
+    position: relative;
+}
+
+  .menubar li {display: inline;
+    padding: 0px 60px 0px 60px;
+     font-family: 'Julius Sans One', sans-serif;
+     font-size: 22px;
+     font-weight: bold;
+     line-height: 30px;
+     margin: 0 0 24px;
+     text-shadow: 2px 2px 2px #082b34
+  }
+  a {
+    color: #a7e8f8;
+  }
+
+  a:hover {text-decoration: underline; color: darkred;}
+  @media {
+    (max-width: 500px)
+  }
+
+  h1 {
+  	font-size: 36px;
+    padding: 10px 0px 0px 10px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: cursive;
+    text-shadow: 2px 2px rgba(78, 50, 8, 0.99);
+  }
+
+  li {
+  	display: black;
+  	padding: 5px;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+
+  p {
+  	font-size: 18px;
+    height: 450px;
+    font-size: 20px;
+    margin: 10px;
+  }
+
+  .profile {
+    margin: 10px 0px 0px 7px;
+  float: left;
+  width: 235px;
+  height: 235px;
+  border-radius: 20px;
+  border: 7px solid;
+  border-color: rgb(51, 59, 65);
+  position: absolute;
+  }
+
+body {
+   background-image: url(Damascus.png) center top;
+   background-size:cover;
+   position: absolute;
+}
+
+  .bottombar {
+    color: blue;
+    display: inline-block;
+    font-size: 28px;
+    text-align:  center;
+    position: relative;  //POSITION BOTTOMBAR RELATIVE TO MENUBAR
+  }
