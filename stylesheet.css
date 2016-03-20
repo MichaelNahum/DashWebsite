@@ -105,19 +105,17 @@ table {
 
   .profile {
     margin: 10px 0px 0px 7px;
-  float: left;
+  /*float: left;*/
   width: 235px;
   height: 235px;
   border-radius: 20px;
   border: 7px solid;
   border-color: rgb(51, 59, 65);
-  position: absolute;
   }
 
 body {
-   background-image: url(Damascus.png) center top;
-   background-size:cover;
-   position: absolute;
+  background: url('Damascus.jpg') no-repeat center center fixed;
+  background-size: cover;
 }
 
   .bottombar {
